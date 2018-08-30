@@ -1,0 +1,22 @@
+@import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_variables.scss";
+
+
+.form__label--hidden {
+display: none;
+}
+.form__input {
+    width: calc(80% - 10px);
+    border: none;
+    outline: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    border-bottom: 5px solid rgb(0, 128, 0);
+    padding-left: 10px;
+    padding-bottom: 10px; 
+}   
+
+.form__input:focus {
+    border-bottom: 5px solid $main-color;
+    transition-duration: .2s;
+}   

@@ -6,6 +6,15 @@
   margin-left: 25%;
 }
 
+p {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: dimgray;
+  font-size: 17px;
+  line-height: 26px;
+}
+
 /*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=base.css.map */

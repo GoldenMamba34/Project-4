@@ -1,5 +1,10 @@
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/normalize.css";
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/normalize.css";
+.link {
+  color: #5FE0C1;
+  text-decoration: none;
+}
+
 .img--logo {
   margin-top: 40px;
   width: 50%;
@@ -7,10 +12,150 @@
   margin-left: 25%;
 }
 
+p {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: dimgray;
+  font-size: 17px;
+  line-height: 26px;
+}
+
 /*# sourceMappingURL=styles.css.map */
+.btn--default {
+  background-color: #00c3ff;
+  border: none;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.btn--success {
+  background-color: #63C384;
+  border: none;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.btn--error {
+  background-color: #63C384;
+  border: none;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.btn--warning {
+  background-color: #63C384;
+  border: none;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.btn--info {
+  background-color: #63C384;
+  border: none;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.form__label--hidden {
+  display: none;
+}
+
+.form__input {
+  width: calc(80% - 10px);
+  border: none;
+  outline: none;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  border-bottom: 5px solid green;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.form__input:focus {
+  border-bottom: 5px solid #5FE0C1;
+  transition-duration: 0.2s;
+}
+
 .grid__col--12 {
   width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 30px;
+}
+
+.headline--secondary {
+  font-size: 20px;
+  display: block;
+  margin-left: 5%;
+  color: gray;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.headline--primary {
+  color: #5FE0C1;
+  margin-left: 8%;
+}
+
+.blockquote {
+  margin-left: 18%;
+  margin-bottom: 30px;
+  color: dimgray;
+  font-style: italic;
+  font-size: 20px;
+  padding-left: 15px;
+  border-left: 10px solid #5FE0C1;
+  border-top-left-radius: 5px;
+}
+
+.img--avatar {
+  width: 50%;
+  height: 50vw;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+
+.img--frame {
+  width: 80%;
+  margin-left: 6.5%;
+  margin-right: 9.5%;
+  padding: 3%;
+  border: 1px solid gray;
 }
 
 .nav {
@@ -44,6 +189,10 @@
 .nav__item a {
   text-decoration: none;
   color: white;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

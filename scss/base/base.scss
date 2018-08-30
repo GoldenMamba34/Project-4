@@ -1,10 +1,18 @@
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/normalize.css";
+@import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_variables.scss";
+@import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_mixins.scss";
 .img--logo {
     margin-top: 40px;
     width: 50%;
     margin-right: 25%;
     margin-left: 25%;
 }
-
+ p {
+@include center;
+color:rgb(105, 105, 105);
+font-size: 17px;
+line-height: 26px;
+ }
 
 /*# sourceMappingURL=styles.css.map */
+ 

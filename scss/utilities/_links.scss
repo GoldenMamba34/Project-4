@@ -1,7 +1,7 @@
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_variables.scss";
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_mixins.scss";
 
-
-.container {
-font-family: $main-font-family;
+.link {
+    color:$main-color;
+    text-decoration: none;
 }
