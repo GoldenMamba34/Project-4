@@ -7,12 +7,21 @@
     margin-right: 25%;
     margin-left: 25%;
 }
- p {
-@include center;
-color:rgb(105, 105, 105);
-font-size: 17px;
-line-height: 26px;
- }
+
+.headline--secondary {
+    font-size:20px;
+    display:block;
+    margin-left: 5%;
+    color:gray;
+    font-weight: 200;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.headline--primary { 
+color:$main-color;
+margin-left: 8%;
+}
 
 /*# sourceMappingURL=styles.css.map */
- 
+  

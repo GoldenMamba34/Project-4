@@ -19,11 +19,13 @@ p {
   color: dimgray;
   font-size: 17px;
   line-height: 26px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
 .btn--default {
-  background-color: #00c3ff;
+  background-color: #6FD3EC;
   border: none;
   width: 90%;
   margin-left: 5%;
@@ -49,7 +51,7 @@ p {
 }
 
 .btn--error {
-  background-color: #63C384;
+  background-color: #D36E70;
   border: none;
   width: 90%;
   margin-left: 5%;
@@ -62,7 +64,7 @@ p {
 }
 
 .btn--warning {
-  background-color: #63C384;
+  background-color: #E8754F;
   border: none;
   width: 90%;
   margin-left: 5%;
@@ -75,7 +77,7 @@ p {
 }
 
 .btn--info {
-  background-color: #63C384;
+  background-color: #A092BE;
   border: none;
   width: 90%;
   margin-left: 5%;
@@ -85,6 +87,11 @@ p {
   color: white;
   font-size: 20px;
   margin-top: 5px;
+}
+
+.theme__colors {
+  margin-top: 15px;
+  text-transform: uppercase;
 }
 
 .form__label--hidden {
@@ -113,6 +120,7 @@ p {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .headline--secondary {

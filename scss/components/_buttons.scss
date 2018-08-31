@@ -2,7 +2,7 @@
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_mixins.scss";
 
 .btn--default {
-background-color: rgb(0, 195, 255);
+background-color: #6FD3EC;
 @include button-normal;
 }
 
@@ -11,14 +11,18 @@ background-color:#63C384;
 @include button-normal;
 }
 .btn--error{
-background-color:#63C384;
+background-color:#D36E70;
 @include button-normal;
 }
 .btn--warning {
-background-color:#63C384;
-@include button-normal;
+background-color:#E8754F;
+@include button-normal; 
 }
 .btn--info{
-background-color:#63C384;
+background-color:#A092BE;
 @include button-normal;
+}
+.theme__colors {
+    margin-top: 15px;
+    text-transform: uppercase;
 }
