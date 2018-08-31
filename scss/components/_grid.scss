@@ -1,6 +1,8 @@
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_mixins.scss";
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_variables.scss";
-.grid__row{
+
+// 3 . 9 12. 8
+.grid__row:nth-child(n+3){
     @include desktop {
     display: flex;
     justify-content: space-around;
@@ -16,7 +18,7 @@ background-color: #80e8d1;
     width: 100%;
 }
 }
-.grid__col--6.theme__colors{
+.grid__col--6.theme__colors{ 
 @include grid-normal; 
 background-color: #3fabca;
 }

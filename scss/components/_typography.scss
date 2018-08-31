@@ -5,7 +5,7 @@
 .container {
 font-family: $main-font-family;
 }
-p {
+.container p {
 
 @include center;
 color:rgb(105, 105, 105);

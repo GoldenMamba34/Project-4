@@ -201,7 +201,7 @@
 }
 
 @media (min-width: 1000px) {
-  .grid__row {
+  .grid__row:nth-child(n+3) {
     display: flex;
     justify-content: space-around;
     width: 85%;
@@ -552,7 +552,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+.container p {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
