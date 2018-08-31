@@ -16,19 +16,19 @@ color:white;
 font-size: 20px;
 line-height: 40px;
 margin-top: 5px;
-}
+} 
 
 @mixin grid-normal {
-color:white;
+color:white; 
 text-align: left; 
 padding-left: 10px;
 text-transform: lowercase;
 @include button-normal; 
 margin-left: calc(5% - 5px);
-}
+} 
 
 @mixin desktop {
-    @media (min-width: $desktop) {
-    //   do stuff for desktop
-    }
-  }
+    @media (min-width: $desktop-breakpoint) {
+        @content;
+    } 
+  }  
