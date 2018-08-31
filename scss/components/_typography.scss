@@ -30,4 +30,8 @@ font-size: 20px;
 padding-left: 15px;
 border-left: 10px solid $main-color;
 border-top-left-radius: 5px;
+
+@include desktop {
+margin-left: 16%;
 }
+} 

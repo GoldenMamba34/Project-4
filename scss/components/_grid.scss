@@ -47,8 +47,10 @@ margin-bottom: 30px;
     @include desktop {
     width:50%;
     height: 50%;
+    margin-bottom: 14%;
+    margin-top: 5px;
     }
-
+ 
     
 } 
 
@@ -57,13 +59,14 @@ margin-bottom: 30px;
     width: 100%;
     display: inline-block; 
     float:right;
+
     }
 
  
 }
 .grid__col--8 {
     @include desktop {
-    width: 60%;
+    width: 57%;
     display: inline-block;
     margin-right: 80px;
     }

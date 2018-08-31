@@ -29,14 +29,14 @@
     margin-right: 5%;
     margin-left: 5%;
     @include desktop { 
-width:10vw;
-font-size: 17px;
+width:10vw;  
+font-size: 16px;
+padding: 5px;
 float: left;
 margin-left: 1vw;
 margin-right: 1vw; 
 height: 40px;
 line-height: 40px;
-
     } 
 
 }

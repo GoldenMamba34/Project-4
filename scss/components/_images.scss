@@ -3,11 +3,11 @@
     height: 50%;
     margin-left: 25%;
     margin-right: 25%;
-margin-bottom: 7%;
+margin-bottom: 8%;
 
 }
 
-.grid__col--6 .img--avatar {
+.grid__col--6 .img--avatar { 
     @include desktop {
         width:40%;
         margin: 0;
@@ -16,10 +16,14 @@ margin-bottom: 7%;
     
     }
 } 
+
+
 .grid__col--6 {
-    width: 40%;
+    @include desktop {
+    width: 40%; 
     height: 40%;
     display: inline-block;
+    }
 } 
 .img--frame {
     width: 80%; 
