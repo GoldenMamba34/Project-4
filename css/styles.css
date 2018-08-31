@@ -64,6 +64,11 @@
   margin-top: 5px;
 }
 
+.btn--default:hover {
+  background-color: #2bbee3;
+  transition-duration: 0.3s;
+}
+
 .btn--success {
   background-color: #63C384;
   border: none;
@@ -76,6 +81,11 @@
   font-size: 20px;
   line-height: 40px;
   margin-top: 5px;
+}
+
+.btn--success:hover {
+  background-color: #3c9d5e;
+  transition-duration: 0.3s;
 }
 
 .btn--error {
@@ -92,6 +102,11 @@
   margin-top: 5px;
 }
 
+.btn--error:hover {
+  background-color: #bc393c;
+  transition-duration: 0.3s;
+}
+
 .btn--warning {
   background-color: #E8754F;
   border: none;
@@ -104,6 +119,11 @@
   font-size: 20px;
   line-height: 40px;
   margin-top: 5px;
+}
+
+.btn--warning:hover {
+  background-color: #cf481b;
+  transition-duration: 0.3s;
 }
 
 .btn--info {
@@ -120,18 +140,42 @@
   margin-top: 5px;
 }
 
+.btn--info:hover {
+  background-color: #7662a1;
+  transition-duration: 0.3s;
+}
+
 .theme__colors {
   margin-top: 15px;
   text-transform: uppercase;
 }
 
-.grid__col--12 {
-  display: flex;
+@media (min-width: 1000px) {
+  .grid__col--12 {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+  }
 }
 
+.btn--success.theme__colors, .btn--error.theme__colors, .btn--warning.theme__colors, .btn--info.theme__colors, .btn--default.theme__colors {
+  outline: none;
+}
 @media (min-width: 1000px) {
   .btn--success.theme__colors, .btn--error.theme__colors, .btn--warning.theme__colors, .btn--info.theme__colors, .btn--default.theme__colors {
-    margin-left: 0;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.btn--success.theme__colors:active, .btn--error.theme__colors:active, .btn--warning.theme__colors:active, .btn--info.theme__colors:active, .btn--default.theme__colors:active {
+  transform: scale(1.05);
+  transition-duration: 0.1s;
+}
+@media (min-width: 1000px) {
+  .btn--success.theme__colors:active, .btn--error.theme__colors:active, .btn--warning.theme__colors:active, .btn--info.theme__colors:active, .btn--default.theme__colors:active {
+    transform: scale(1.1);
   }
 }
 
@@ -156,6 +200,15 @@
   transition-duration: 0.2s;
 }
 
+@media (min-width: 1000px) {
+  .grid__row {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin-left: 10%;
+  }
+}
+
 .grid__col--12.theme__colors {
   color: white;
   text-align: left;
@@ -173,6 +226,18 @@
   margin-top: 5px;
   margin-left: calc(5% - 5px);
   background-color: #80e8d1;
+}
+@media (min-width: 1000px) {
+  .grid__col--12.theme__colors {
+    margin: 0;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
+@media (min-width: 1000px) {
+  .grid__col--12.theme__colors {
+    width: 100%;
+  }
 }
 
 .grid__col--6.theme__colors {
@@ -193,6 +258,13 @@
   margin-left: calc(5% - 5px);
   background-color: #3fabca;
 }
+@media (min-width: 1000px) {
+  .grid__col--6.theme__colors {
+    margin: 0;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
 
 .grid__col--4.theme__colors {
   color: white;
@@ -211,6 +283,18 @@
   margin-top: 5px;
   margin-left: calc(5% - 5px);
   background-color: #7ee6fd;
+}
+@media (min-width: 1000px) {
+  .grid__col--4.theme__colors {
+    margin: 0;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
+@media (min-width: 1000px) {
+  .grid__col--4.theme__colors {
+    flex-basis: 500px;
+  }
 }
 
 .grid__col--3.theme__colors {
@@ -231,6 +315,13 @@
   margin-left: calc(5% - 5px);
   background-color: #deb2ee;
 }
+@media (min-width: 1000px) {
+  .grid__col--3.theme__colors {
+    margin: 0;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
 
 .grid__col--5.theme__colors {
   color: white;
@@ -249,6 +340,18 @@
   margin-top: 5px;
   margin-left: calc(5% - 5px);
   background-color: #88d9a0;
+}
+@media (min-width: 1000px) {
+  .grid__col--5.theme__colors {
+    margin: 0;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
+@media (min-width: 1000px) {
+  .grid__col--5.theme__colors {
+    flex-basis: 500px;
+  }
 }
 
 .grid__col--7.theme__colors {
@@ -269,6 +372,13 @@
   margin-left: calc(5% - 5px);
   background-color: #ec9fa3;
 }
+@media (min-width: 1000px) {
+  .grid__col--7.theme__colors {
+    margin: 0;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
 
 .grid__col--8.theme__colors {
   color: white;
@@ -287,6 +397,19 @@
   margin-top: 5px;
   margin-left: calc(5% - 5px);
   background-color: #fd9f85;
+}
+@media (min-width: 1000px) {
+  .grid__col--8.theme__colors {
+    margin: 0;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid__col--7.theme__colors.centered {
+    width: 65%;
+  }
 }
 
 .grid__row {

@@ -5,33 +5,72 @@
 background-color: #6FD3EC;
 @include button-normal;
 }
+.btn--default:hover {
+background-color: darken($color:#6FD3EC, $amount:15);
+transition-duration: 0.3s;
+}
 
 .btn--success {
 background-color:#63C384;
 @include button-normal;
 }
+.btn--success:hover {
+    background-color: darken($color:#63C384, $amount:15);
+    transition-duration: 0.3s;
+    }
 .btn--error{
 background-color:#D36E70;
 @include button-normal;
-}
+}  
+.btn--error:hover {
+    background-color: darken($color:#D36E70, $amount:15);
+    transition-duration: 0.3s;
+    }
 .btn--warning {
 background-color:#E8754F;
 @include button-normal; 
 }
+.btn--warning:hover {
+    background-color: darken($color:#E8754F, $amount:15);
+    transition-duration: 0.3s;
+    }
+    
 .btn--info{
 background-color:#A092BE;
 @include button-normal;
 }
+.btn--info:hover {
+    background-color: darken($color:#A092BE, $amount:15);
+    transition-duration: 0.3s;
+    }
+ 
 .theme__colors {
     margin-top: 15px;
     text-transform: uppercase;
 }
 
 .grid__col--12 {
+    @include desktop {
 display: flex; 
+justify-content: space-around;
+width: 60%; 
+    }
+
 } 
 .btn--success.theme__colors,.btn--error.theme__colors,.btn--warning.theme__colors,.btn--info.theme__colors,.btn--default.theme__colors {
+    outline: none;
     @include desktop {
-    margin-left: 0;
+padding-bottom: 10px;
+
+padding-left: 20px;
+padding-right: 20px;
     }
-}
+}  
+.btn--success.theme__colors:active,.btn--error.theme__colors:active,.btn--warning.theme__colors:active,.btn--info.theme__colors:active,.btn--default.theme__colors:active {
+    @include desktop {
+transform: scale(1.1);
+    }
+    transform: scale(1.05);
+transition-duration: 0.1s;
+}    
+ 
