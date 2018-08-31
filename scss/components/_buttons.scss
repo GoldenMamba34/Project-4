@@ -51,7 +51,7 @@ background-color:#A092BE;
 
 .grid__col--12 {
     @include desktop {
-display: flex; 
+        @include flexbox;
 justify-content: space-around;
 width: 60%; 
     }

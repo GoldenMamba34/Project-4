@@ -152,6 +152,10 @@
 
 @media (min-width: 1000px) {
   .grid__col--12 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: space-around;
     width: 60%;
@@ -202,6 +206,10 @@
 
 @media (min-width: 1000px) {
   .grid__row:nth-child(n+3) {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: space-around;
     width: 85%;
