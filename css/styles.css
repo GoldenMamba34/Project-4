@@ -320,20 +320,27 @@
   }
 }
 
+.img--avatar {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 7%;
+}
+
 @media (min-width: 1000px) {
-  .img--frame {
-    width: 30%;
-    background-clip: red;
+  .grid__col--6 .img--avatar {
+    width: 40%;
+    margin: 0;
+    height: 40%;
+    padding-left: 60%;
   }
 }
 
-.img--avatar {
-  width: 50%;
-  height: 50vw;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 5%;
-  margin-bottom: 7%;
+.grid__col--6 {
+  width: 40%;
+  height: 40%;
+  display: inline-block;
 }
 
 .img--frame {
@@ -341,11 +348,11 @@
   margin-left: 6.5%;
   margin-right: 9.5%;
   padding: 3%;
-  border: 1px solid gray;
 }
 @media (min-width: 1000px) {
   .img--frame {
-    width: 30%;
+    margin: 0;
+    margin-left: 20%;
   }
 }
 
