@@ -4,47 +4,44 @@
     margin-top: 30px;
     padding: 0;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 5%; 
     @include desktop {
-      width: 50%;
-   
-      margin-left: 5%;
+      float: right;
+      width: 60%;
+      height:40px;
       display: flex;
-    justify-content: space-around; 
-      background-color: red;
-      margin-left: none;
-      margin-top: 50px;
-      
+      margin-left: 0;
+      margin-top: 45px; 
+
 }
   }
   
   .nav__item { 
     background-color: #5FE0C1;
     margin-bottom: 15px;
-    height: 50px;
+    height: 50px;  
     border-radius: 10px;
     text-align: center; 
     font-size: 25px;  
-    text-decoration: none; 
+    text-decoration: none;  
     line-height: 50px;
     width: 90%;
     margin-right: 5%;
     margin-left: 5%;
-    @include desktop {
-      background-color: #5FE0C1;
-      margin-bottom: 0px;
-      height: 20px;
-      border-radius: 5px;
-      text-align: center; 
-      font-size: 10px;  
-      text-decoration: none; 
-      line-height: 20px;
+    @include desktop { 
+width:10vw;
+font-size: 17px;
+float: left;
+margin-left: 1vw;
+margin-right: 1vw; 
+height: 40px;
+line-height: 40px;
 
-    }
+    } 
 
 }
   
-  
+   
   
   .nav__item:hover {
     transition-duration:.3s;

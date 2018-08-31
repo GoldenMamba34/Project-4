@@ -30,7 +30,50 @@ background-color: #ec9fa3
 @include grid-normal;
 background-color: #fd9f85;
 }
-
+ 
 .grid__row { 
 margin-bottom: 30px;
-}           
+}             
+
+.grid__col--8 .card {
+    width: 100%;
+    margin-left: 2%; 
+    margin-right: 0;
+ 
+    display: inline-block; 
+
+}
+.form .img--avatar {
+    @include desktop {
+    width:50%;
+    height: 50%;
+    }
+
+    
+} 
+
+.form {
+    @include desktop {
+    width: 100%;
+    display: inline-block; 
+    float:right;
+    }
+
+ 
+}
+.grid__col--8 {
+    @include desktop {
+    width: 60%;
+    display: inline-block;
+    margin-right: 80px;
+    }
+
+}
+.grid__col--4 { 
+    @include desktop {
+    width: 31%;
+    display: inline-block; 
+    }
+
+   
+}

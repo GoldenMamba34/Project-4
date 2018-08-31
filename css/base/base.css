@@ -1,7 +1,14 @@
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/normalize.css";
-html, body {
+.container {
   max-width: 100%;
   overflow-x: hidden;
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 .img--logo {
@@ -12,11 +19,11 @@ html, body {
 }
 @media (min-width: 1000px) {
   .img--logo {
-    width: 30%;
-    margin-left: 0;
+    width: 15%;
+    margin-left: 5%;
     float: left;
-    margin-right: 0;
-    margin-top: 0;
+    margin-right: 10%;
+    margin-top: 25px;
     display: inline;
   }
 }

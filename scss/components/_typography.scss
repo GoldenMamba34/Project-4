@@ -6,19 +6,26 @@
 font-family: $main-font-family;
 }
 p {
+
 @include center;
 color:rgb(105, 105, 105);
-font-size: 17px;
-line-height: 26px;
+font-size: 17px; 
+line-height: 26px; 
 
 margin-top: 50px;
 margin-bottom:50px;
 }
-.blockquote { 
+.card {
+    @include desktop {
+        clear: both;
+        padding-top: 35px;
+    }
+}
+.blockquote {  
 margin-left: 18%;
 margin-bottom: 30px;
 color: dimgray;
-font-style: italic;
+font-style: italic; 
 font-size: 20px;
 padding-left: 15px;
 border-left: 10px solid $main-color;
