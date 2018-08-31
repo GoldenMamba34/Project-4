@@ -1,10 +1,12 @@
+@import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_variables.scss";
+
 @mixin center {
-    width: 80%;
-    margin-left:10%;
-    margin-right: 10%;
+width: 80%;
+margin-left:10%;
+margin-right: 10%;
 }
 @mixin button-normal {
-    border: none; 
+border: none; 
 width: 90%;
 margin-left: 5%;
 margin-right: 5%;
@@ -12,6 +14,21 @@ height: 40px;
 border-radius: 5px;
 color:white;
 font-size: 20px;
+line-height: 40px;
 margin-top: 5px;
 }
 
+@mixin grid-normal {
+color:white;
+text-align: left; 
+padding-left: 10px;
+text-transform: lowercase;
+@include button-normal; 
+margin-left: calc(5% - 5px);
+}
+
+@mixin desktop {
+    @media (min-width: $desktop) {
+    //   do stuff for desktop
+    }
+  }

@@ -1,11 +1,36 @@
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_mixins.scss";
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_variables.scss";
-.grid__col--12 {
-    @include center;
-margin-top: 30px;
-margin-bottom: 30px;
+
+
+.grid__col--12.theme__colors{
+@include grid-normal;
+background-color: #80e8d1;
+}
+.grid__col--6.theme__colors{
+@include grid-normal;
+background-color: #3fabca;
+}
+.grid__col--4.theme__colors{
+@include grid-normal;
+background-color: #7ee6fd;
+} 
+.grid__col--3.theme__colors{
+@include grid-normal;
+background-color:#deb2ee;
+}
+.grid__col--5.theme__colors{
+@include grid-normal;
+background-color: #88d9a0;
+}
+.grid__col--7.theme__colors{
+@include grid-normal;
+background-color: #ec9fa3
+}
+.grid__col--8.theme__colors{
+@include grid-normal;
+background-color: #fd9f85;
 }
 
-
-
-
+.grid__row { 
+margin-bottom: 30px;
+}           

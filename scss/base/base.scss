@@ -1,8 +1,13 @@
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/normalize.css";
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_variables.scss";
 @import "/Users/Andrew/Desktop/TechDegree/Project-4/scss/utilities/_mixins.scss";
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .img--logo {
-    margin-top: 40px;
+    margin-top: 40px; 
     width: 50%;
     margin-right: 25%;
     margin-left: 25%;
