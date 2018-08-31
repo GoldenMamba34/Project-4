@@ -27,3 +27,11 @@ background-color:#A092BE;
     text-transform: uppercase;
 }
 
+.grid__col--12 {
+display: flex; 
+} 
+.btn--success.theme__colors,.btn--error.theme__colors,.btn--warning.theme__colors,.btn--info.theme__colors,.btn--default.theme__colors {
+    @include desktop {
+    margin-left: 0;
+    }
+}

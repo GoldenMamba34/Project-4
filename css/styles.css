@@ -125,6 +125,16 @@
   text-transform: uppercase;
 }
 
+.grid__col--12 {
+  display: flex;
+}
+
+@media (min-width: 1000px) {
+  .btn--success.theme__colors, .btn--error.theme__colors, .btn--warning.theme__colors, .btn--info.theme__colors, .btn--default.theme__colors {
+    margin-left: 0;
+  }
+}
+
 .form__label--hidden {
   display: none;
 }
