@@ -4,24 +4,24 @@
 .container {
     max-width: 100%;
     overflow-x: hidden;
-
+ 
     @include desktop {
     width:90%;
     margin-left: 5%;
     margin-right: 5%;
-    }
+    } 
 }
-
+ 
 
 .img--logo { 
-    margin-top: 40px; 
+    margin-top: 40px;  
     width: 50%;
     margin-right: 25%;
     margin-left: 25%;
     @include desktop {
-        width: 15%;
+        width: 15%; 
         margin-left:5%; 
-        float:left;
+        float:left; 
         margin-right:10%;
         margin-top: 25px;
         display: inline;
